@@ -1,9 +1,11 @@
 #include <iostream>
+#include "Les1.h"
+
 
 int main()
 {
-	std::cout << "Hello World!" << std::endl;
-	char randomWord;
-	std::cin >> randomWord;
-	return 0;
+	Rooster mijnRooster = Rooster();
+	mijnRooster.maxLessen = 5;
+	mijnRooster.Vakken[mijnRooster.maxLessen];
+	mijnRooster.geefLessenWeer(/*creeër het rooster, for loop {Vakken[i] = new Vak(compose Vak class); }*/);
 }
